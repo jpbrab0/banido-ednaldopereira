@@ -1,36 +1,45 @@
-# 'Banido' Command Line Sound
+# 'Banido' CLI
+### CÓDIGO INSPIRADO DO '[Oloquinho](https://github.com/oloquinho/oloquinho)'
 
+---
 
 <div style="text-align: center">
     <img src="./ednaldopereira.png" height="300"/>
 </div>
 
-## Compatibility
+# Apresentação
 
-- Linux
-- Windows
-- Mac
+## ⚠️ATENÇÃO⚠️
+Este pacote nn tem nenhum intuito financeiro, o código deste repositório foi ~~copiado~~ inspirado no do '[Oloquinho](https://github.com/oloquinho/oloquinho)'. 
 
-## Installing
+A minha intenção é para que este repo seja só um meme que se possa utilizar atravês do npm.
 
-Install globally:
+Este projeto tem o intuito de ser apenas uma package Humorística.
 
-    npm install -g banido
+# Compatibilidade
 
-## Running
+Este pacote é compativel com os seguintes sistemas operacionais:
 
-With npm:
+* Linux
+* Windows
+* MacOS
 
-    npm install -g banido
-    banido
+# Instalação
 
-Npx:
+Para instalar este pacote atravês do npm, precisamos rodar o seguinte comando:
+ ```bash
+ npm i banido -g
+ ```
 
-    npx banido
+ Caso você queira roda-lo, vai precisar rodar o seguinte comando:
+ ```bash
+ npx banido
+ ```
+ ou
+ ```bash
+ banido
+ ```
 
-Node script:
+ Código original feito por [Luan Orlandi](https://github.com/luanorlandi)
 
-    import banido from 'banido';
-
-    banido();
-Código inspirado no do 'Oloquinho'
+ Modificação de código feito por [jpbrab0](https://jpres.dev)
