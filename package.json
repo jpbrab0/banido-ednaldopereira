@@ -1,0 +1,25 @@
+{
+  "name": "banido",
+  "version": "1.1.1",
+  "description": "Banido Desbanido",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jpbrab0/banido-ednaldopereira.git"
+  },
+  "author": " <jpresende502@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "banido": "./src/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jpbrab0/banido-ednaldopereira/issues"
+  },
+  "homepage": "https://github.com/jpbrab0/banido-ednaldopereira#readme",
+  "dependencies": {
+    "meow": "^5.0.0"
+  }
+}
